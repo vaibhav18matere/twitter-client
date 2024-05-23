@@ -33,6 +33,15 @@ const TweetCard: React.FC = () => {
           ac justo eu justo gravida sodales id at ipsum.
           {/* here add logic for "show more..." if character count is more than 240 */}
         </p>
+
+        <div className="flex flex-row justify-between mt-2 text-slate-500 text-lg p-2  ">
+          <BiMessageRounded />
+          <FaRetweet />
+          <FaRegHeart />
+          <MdOutlineSignalCellularAlt />
+          <FaRegBookmark />
+          <FiShare />
+        </div>
       </div>
     </div>
   );
