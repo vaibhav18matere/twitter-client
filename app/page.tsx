@@ -1,5 +1,5 @@
-import LeftSidenav from "./pages/Sidenavigation";
-import Feed from "@/components/Feed";
+import LeftSidenav from "./pages/LeftSidenav";
+import Feed from "./pages/Feed";
 import RightSideNav from "./pages/RightSideNav";
 
 export default function Home() {
